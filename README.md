@@ -7,6 +7,8 @@
 open this file on your webStorm
 
 TcPlayer: open cyberplayer.html ---> Alt+F2 select a browser to open it
+## Demo
+
 ![支持格式](https://github.com/ddi6599/live-player-demo/blob/master/images/image.png)
 
 
