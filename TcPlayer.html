@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <title>腾讯云 TcPlayer.js</title>
+    <!--css-->
+</head>
+
+<body>
+<div class="container">
+    <div id="id_test_video" style="width:100%; height:auto;"></div>
+</div>
+
+<!--javascript-->
+<script src="//imgcache.qq.com/open/qcloud/video/vcplayer/TcPlayer-2.2.1.js" charset="utf-8"></script>
+<script>
+    var player = new TcPlayer('id_test_video', {
+        "rtmp": "rtmp://47.75.41.87/live/slot01",
+        "autoplay": false,
+        "coverpic": "images/playStop.png",
+        "width": '640',
+        "height": '300'
+    });
+</script>
+</body>
+</html>

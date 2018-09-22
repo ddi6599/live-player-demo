@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <title>video.js 播放器</title>
+    <!--css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@5.20.5/dist/video-js.min.css">
+</head>
+
+<body>
+<div class="container">
+    <video id="rtmpVideo" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"
+           width="640" height="300" poster="images/playStop.png" data-setup="{}">
+        <source src="rtmp://47.75.41.87/live/slot01" type="rtmp/flv">
+        <p class="vjs-no-js">
+            播放视频需要启用 JavaScript，推荐使用支持HTML5的浏览器访问
+        </p>
+    </video>
+</div>
+
+<!--javascript-->
+<script src="https://cdn.jsdelivr.net/npm/video.js@5.20.5/dist/video.min.js"></script>
+<script>
+    var player = videojs("rtmpVideo", {
+        controlBar: {
+            captionsButton: false,
+            chaptersButton: false,
+            liveDisplay: false,
+            playbackRateMenuButton: false,
+            subtitlesButton: false,
+            progressControl:false
+        }
+
+    }, function () {
+    });
+</script>
+</body>
+</html>
