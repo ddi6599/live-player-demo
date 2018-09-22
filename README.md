@@ -5,13 +5,11 @@
 # You should have webStorm Firstly
 open this file on your webStorm
 
-TcPlayer: open cyberplayer.html ---> Alt+F2 select a browser to open it
+TcPlayer[中文文档](https://cloud.tencent.com/document/product/267/7479): open cyberplayer.html ---> Alt+F2 select a browser to open it
 
-[中文文档](https://cloud.tencent.com/document/product/267/7479)
 支持格式
 ![fgh](https://github.com/ddi6599/live-player-demo/blob/master/images/image.png)
 
+videoJsPlayer[中文文档](https://videojs.com/getting-started/): open video.js.html ---> Alt+F2 select a browser to open it
 
-videoJsPlayer: open video.js.html ---> Alt+F2 select a browser to open it
-
-cyberplayer: open cyberplayer.html ---> Alt+F2 select a browser to open it
+cyberplayer[中文文档](http://cyberplayer.bcelive.com/demo/new/index.html): open cyberplayer.html ---> Alt+F2 select a browser to open it
