@@ -2,7 +2,6 @@
 
 ## How to run demo on your localhost
 
-``` bash
 # You should have webStorm Firstly
 open this file on your webStorm
 
